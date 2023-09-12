@@ -2,10 +2,9 @@ function App() {
     return (
       <div>
         <FirstComponent/>
+        <NamedComponent name="Hannes"/>
       </div>
     );
   }
 
 
-  ReactDOM.render(<App/>,
-  document.getElementById("root"));
